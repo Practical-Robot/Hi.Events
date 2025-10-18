@@ -154,6 +154,11 @@ msgstr "1 個活動的 Webhook"
 msgid "123 Main Street"
 msgstr "緬因街 123 號"
 
+#: src/components/routes/event/TicketDesigner/TicketDesignerPrint.tsx:81
+#: src/components/routes/event/TicketDesigner/TicketPreview.tsx:89
+msgid "123 Sample Street"
+msgstr ""
+
 #: src/components/common/WidgetEditor/index.tsx:226
 msgid "20"
 msgstr "20"
@@ -725,7 +730,7 @@ msgstr "每個產品詢問一次"
 msgid "At least one event type must be selected"
 msgstr "必須選擇至少一種事件類型"
 
-#: src/components/common/AttendeeTicket/index.tsx:86
+#: src/components/common/AttendeeTicket/index.tsx:94
 #: src/components/common/Editor/Controls/InsertLiquidVariableControl.tsx:54
 #: src/components/common/Editor/Controls/InsertLiquidVariableControl.tsx:55
 #: src/components/routes/product-widget/CollectInformation/index.tsx:386
@@ -839,7 +844,7 @@ msgstr "等待線下付款"
 msgid "Awaiting payment"
 msgstr "等待付款"
 
-#: src/components/common/AttendeeTicket/index.tsx:108
+#: src/components/common/AttendeeTicket/index.tsx:116
 #: src/components/routes/organizer/OrganizerDashboard/index.tsx:358
 #: src/components/routes/product-widget/OrderSummaryAndProducts/index.tsx:40
 #: src/components/routes/product-widget/OrderSummaryAndProducts/index.tsx:65
@@ -976,7 +981,7 @@ msgstr "取消訂單 {0}"
 msgid "Canceling will cancel all attendees associated with this order, and release the tickets back into the available pool."
 msgstr "取消將取消與此訂單關聯的所有參與者，並將門票釋放回可用池。"
 
-#: src/components/common/AttendeeTicket/index.tsx:108
+#: src/components/common/AttendeeTicket/index.tsx:116
 #: src/components/common/OrderStatusBadge/index.tsx:12
 #: src/components/routes/event/orders.tsx:24
 #: src/components/routes/organizer/OrganizerDashboard/index.tsx:355
@@ -1469,7 +1474,7 @@ msgstr "繼續建立活動"
 msgid "Continue to next step"
 msgstr "繼續下一步"
 
-#: src/components/common/AttendeeTicket/index.tsx:158
+#: src/components/common/AttendeeTicket/index.tsx:167
 #: src/components/common/CopyButton/index.tsx:13
 #: src/components/modals/ShareModal/index.tsx:255
 msgid "Copied"
@@ -1508,7 +1513,7 @@ msgstr "複製代碼"
 msgid "Copy details to all attendees"
 msgstr "將詳細信息抄送給所有與會者"
 
-#: src/components/common/AttendeeTicket/index.tsx:158
+#: src/components/common/AttendeeTicket/index.tsx:167
 #: src/components/modals/ShareModal/index.tsx:171
 msgid "Copy Link"
 msgstr "複製鏈接"
@@ -2841,7 +2846,7 @@ msgid "General"
 msgstr "常規"
 
 #: src/components/routes/event/TicketDesigner/TicketDesignerPrint.tsx:36
-#: src/components/routes/event/TicketDesigner/TicketPreview.tsx:38
+#: src/components/routes/event/TicketDesigner/TicketPreview.tsx:41
 msgid "General Admission"
 msgstr "一般入場"
 
@@ -3369,7 +3374,7 @@ msgstr "已上線"
 msgid "LIVE"
 msgstr "直播"
 
-#: src/components/routes/event/TicketDesigner/TicketPreview.tsx:31
+#: src/components/routes/event/TicketDesigner/TicketPreview.tsx:34
 msgid "Loading preview..."
 msgstr "載入預覽中..."
 
@@ -4209,6 +4214,7 @@ msgstr "組織詳細信息"
 msgid "Organization Name"
 msgstr "組織名稱"
 
+#: src/components/common/AttendeeTicket/index.tsx:65
 #: src/components/modals/EditUserModal/index.tsx:55
 #: src/components/modals/InviteUserModal/index.tsx:47
 #: src/components/routes/events/Dashboard/index.tsx:193
@@ -4659,7 +4665,7 @@ msgstr "原色"
 msgid "Primary Text Color"
 msgstr "主要文字顏色"
 
-#: src/components/common/AttendeeTicket/index.tsx:147
+#: src/components/common/AttendeeTicket/index.tsx:155
 msgid "Print"
 msgstr "列印"
 
@@ -5086,6 +5092,11 @@ msgstr "銷售結束"
 #: src/components/common/ProductPriceAvailability/index.tsx:40
 msgid "Sales start"
 msgstr "銷售開始"
+
+#: src/components/routes/event/TicketDesigner/TicketDesignerPrint.tsx:80
+#: src/components/routes/event/TicketDesigner/TicketPreview.tsx:88
+msgid "Sample Venue"
+msgstr ""
 
 #: src/components/routes/event/Settings/Sections/LocationSettings/index.tsx:135
 #: src/components/routes/organizer/Settings/Sections/AddressSettings/index.tsx:93
@@ -6299,7 +6310,7 @@ msgstr "持票人姓名"
 msgid "Ticket holders"
 msgstr "票務持有人"
 
-#: src/components/common/AttendeeTicket/index.tsx:122
+#: src/components/common/AttendeeTicket/index.tsx:130
 msgid "Ticket ID"
 msgstr "門票 ID"
 
@@ -6315,7 +6326,7 @@ msgstr "門票名稱"
 msgid "Ticket or Product"
 msgstr "票券或產品"
 
-#: src/components/routes/event/TicketDesigner/TicketDesignerPrint.tsx:85
+#: src/components/routes/event/TicketDesigner/TicketDesignerPrint.tsx:89
 msgid "Ticket Preview for"
 msgstr "門票預覽："
 
@@ -6323,7 +6334,7 @@ msgstr "門票預覽："
 msgid "Ticket Price"
 msgstr "門票價格"
 
-#: src/components/common/AttendeeTicket/index.tsx:77
+#: src/components/common/AttendeeTicket/index.tsx:85
 msgid "Ticket Type"
 msgstr "門票類型"
 
@@ -6697,7 +6708,7 @@ msgstr "世界協調時"
 msgid "VAT"
 msgstr "增值税"
 
-#: src/components/common/AttendeeTicket/index.tsx:66
+#: src/components/common/AttendeeTicket/index.tsx:74
 msgid "Venue"
 msgstr "場地"
 

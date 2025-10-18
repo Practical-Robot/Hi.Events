@@ -154,6 +154,11 @@ msgstr "1 webhook activo"
 msgid "123 Main Street"
 msgstr "123 calle principal"
 
+#: src/components/routes/event/TicketDesigner/TicketDesignerPrint.tsx:81
+#: src/components/routes/event/TicketDesigner/TicketPreview.tsx:89
+msgid "123 Sample Street"
+msgstr ""
+
 #: src/components/common/WidgetEditor/index.tsx:226
 msgid "20"
 msgstr "20"
@@ -725,7 +730,7 @@ msgstr "Preguntar una vez por producto"
 msgid "At least one event type must be selected"
 msgstr "Debe seleccionarse al menos un tipo de evento"
 
-#: src/components/common/AttendeeTicket/index.tsx:86
+#: src/components/common/AttendeeTicket/index.tsx:94
 #: src/components/common/Editor/Controls/InsertLiquidVariableControl.tsx:54
 #: src/components/common/Editor/Controls/InsertLiquidVariableControl.tsx:55
 #: src/components/routes/product-widget/CollectInformation/index.tsx:386
@@ -839,7 +844,7 @@ msgstr "Esperando pago fuera de línea"
 msgid "Awaiting payment"
 msgstr "Esperando pago"
 
-#: src/components/common/AttendeeTicket/index.tsx:108
+#: src/components/common/AttendeeTicket/index.tsx:116
 #: src/components/routes/organizer/OrganizerDashboard/index.tsx:358
 #: src/components/routes/product-widget/OrderSummaryAndProducts/index.tsx:40
 #: src/components/routes/product-widget/OrderSummaryAndProducts/index.tsx:65
@@ -976,7 +981,7 @@ msgstr "Cancelar pedido {0}"
 msgid "Canceling will cancel all attendees associated with this order, and release the tickets back into the available pool."
 msgstr "Cancelar anulará todos los asistentes asociados con este pedido y liberará los boletos de vuelta al grupo disponible."
 
-#: src/components/common/AttendeeTicket/index.tsx:108
+#: src/components/common/AttendeeTicket/index.tsx:116
 #: src/components/common/OrderStatusBadge/index.tsx:12
 #: src/components/routes/event/orders.tsx:24
 #: src/components/routes/organizer/OrganizerDashboard/index.tsx:355
@@ -1469,7 +1474,7 @@ msgstr "Continuar a la creación del evento"
 msgid "Continue to next step"
 msgstr "Continuar al siguiente paso"
 
-#: src/components/common/AttendeeTicket/index.tsx:158
+#: src/components/common/AttendeeTicket/index.tsx:167
 #: src/components/common/CopyButton/index.tsx:13
 #: src/components/modals/ShareModal/index.tsx:255
 msgid "Copied"
@@ -1508,7 +1513,7 @@ msgstr "Copiar código"
 msgid "Copy details to all attendees"
 msgstr "Copiar detalles a todos los asistentes."
 
-#: src/components/common/AttendeeTicket/index.tsx:158
+#: src/components/common/AttendeeTicket/index.tsx:167
 #: src/components/modals/ShareModal/index.tsx:171
 msgid "Copy Link"
 msgstr "Copiar link"
@@ -2841,7 +2846,7 @@ msgid "General"
 msgstr "General"
 
 #: src/components/routes/event/TicketDesigner/TicketDesignerPrint.tsx:36
-#: src/components/routes/event/TicketDesigner/TicketPreview.tsx:38
+#: src/components/routes/event/TicketDesigner/TicketPreview.tsx:41
 msgid "General Admission"
 msgstr "Admisión General"
 
@@ -3369,7 +3374,7 @@ msgstr "En vivo"
 msgid "LIVE"
 msgstr "EN VIVO"
 
-#: src/components/routes/event/TicketDesigner/TicketPreview.tsx:31
+#: src/components/routes/event/TicketDesigner/TicketPreview.tsx:34
 msgid "Loading preview..."
 msgstr "Cargando vista previa..."
 
@@ -4209,6 +4214,7 @@ msgstr "Detalles de la organización"
 msgid "Organization Name"
 msgstr "Nombre de la organización"
 
+#: src/components/common/AttendeeTicket/index.tsx:65
 #: src/components/modals/EditUserModal/index.tsx:55
 #: src/components/modals/InviteUserModal/index.tsx:47
 #: src/components/routes/events/Dashboard/index.tsx:193
@@ -4659,7 +4665,7 @@ msgstr "Color primario"
 msgid "Primary Text Color"
 msgstr "Color de texto principal"
 
-#: src/components/common/AttendeeTicket/index.tsx:147
+#: src/components/common/AttendeeTicket/index.tsx:155
 msgid "Print"
 msgstr "Imprimir"
 
@@ -5086,6 +5092,11 @@ msgstr "Ventas terminadas"
 #: src/components/common/ProductPriceAvailability/index.tsx:40
 msgid "Sales start"
 msgstr "Inicio de ventas"
+
+#: src/components/routes/event/TicketDesigner/TicketDesignerPrint.tsx:80
+#: src/components/routes/event/TicketDesigner/TicketPreview.tsx:88
+msgid "Sample Venue"
+msgstr ""
 
 #: src/components/routes/event/Settings/Sections/LocationSettings/index.tsx:135
 #: src/components/routes/organizer/Settings/Sections/AddressSettings/index.tsx:93
@@ -6299,7 +6310,7 @@ msgstr "Nombre del portador del boleto"
 msgid "Ticket holders"
 msgstr "Poseedores de entradas"
 
-#: src/components/common/AttendeeTicket/index.tsx:122
+#: src/components/common/AttendeeTicket/index.tsx:130
 msgid "Ticket ID"
 msgstr "ID del boleto"
 
@@ -6315,7 +6326,7 @@ msgstr "Nombre del boleto"
 msgid "Ticket or Product"
 msgstr "Entrada o producto"
 
-#: src/components/routes/event/TicketDesigner/TicketDesignerPrint.tsx:85
+#: src/components/routes/event/TicketDesigner/TicketDesignerPrint.tsx:89
 msgid "Ticket Preview for"
 msgstr "Vista previa de boleto para"
 
@@ -6323,7 +6334,7 @@ msgstr "Vista previa de boleto para"
 msgid "Ticket Price"
 msgstr "Precio del boleto"
 
-#: src/components/common/AttendeeTicket/index.tsx:77
+#: src/components/common/AttendeeTicket/index.tsx:85
 msgid "Ticket Type"
 msgstr "Tipo de Ticket"
 
@@ -6697,7 +6708,7 @@ msgstr "UTC"
 msgid "VAT"
 msgstr "IVA"
 
-#: src/components/common/AttendeeTicket/index.tsx:66
+#: src/components/common/AttendeeTicket/index.tsx:74
 msgid "Venue"
 msgstr "Lugar"
 

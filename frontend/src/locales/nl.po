@@ -155,6 +155,11 @@ msgstr "1 Actieve webhook"
 msgid "123 Main Street"
 msgstr "Hoofdstraat 123"
 
+#: src/components/routes/event/TicketDesigner/TicketDesignerPrint.tsx:81
+#: src/components/routes/event/TicketDesigner/TicketPreview.tsx:89
+msgid "123 Sample Street"
+msgstr ""
+
 #: src/components/common/WidgetEditor/index.tsx:226
 msgid "20"
 msgstr "20"
@@ -726,7 +731,7 @@ msgstr "Vraag één keer per product"
 msgid "At least one event type must be selected"
 msgstr "Er moet minstens één evenement type worden geselecteerd"
 
-#: src/components/common/AttendeeTicket/index.tsx:86
+#: src/components/common/AttendeeTicket/index.tsx:94
 #: src/components/common/Editor/Controls/InsertLiquidVariableControl.tsx:54
 #: src/components/common/Editor/Controls/InsertLiquidVariableControl.tsx:55
 #: src/components/routes/product-widget/CollectInformation/index.tsx:386
@@ -840,7 +845,7 @@ msgstr "Wacht op offline betaling"
 msgid "Awaiting payment"
 msgstr "Wacht op betaling"
 
-#: src/components/common/AttendeeTicket/index.tsx:108
+#: src/components/common/AttendeeTicket/index.tsx:116
 #: src/components/routes/organizer/OrganizerDashboard/index.tsx:358
 #: src/components/routes/product-widget/OrderSummaryAndProducts/index.tsx:40
 #: src/components/routes/product-widget/OrderSummaryAndProducts/index.tsx:65
@@ -977,7 +982,7 @@ msgstr "Annuleer order {0}"
 msgid "Canceling will cancel all attendees associated with this order, and release the tickets back into the available pool."
 msgstr "Annuleren zal alle deelnemers geassocieerd met deze bestelling annuleren en de tickets terugzetten in de beschikbare pool."
 
-#: src/components/common/AttendeeTicket/index.tsx:108
+#: src/components/common/AttendeeTicket/index.tsx:116
 #: src/components/common/OrderStatusBadge/index.tsx:12
 #: src/components/routes/event/orders.tsx:24
 #: src/components/routes/organizer/OrganizerDashboard/index.tsx:355
@@ -1470,7 +1475,7 @@ msgstr "Ga door naar evenement aanmaken"
 msgid "Continue to next step"
 msgstr "Ga door naar de volgende stap"
 
-#: src/components/common/AttendeeTicket/index.tsx:158
+#: src/components/common/AttendeeTicket/index.tsx:167
 #: src/components/common/CopyButton/index.tsx:13
 #: src/components/modals/ShareModal/index.tsx:255
 msgid "Copied"
@@ -1509,7 +1514,7 @@ msgstr "Kopieer code"
 msgid "Copy details to all attendees"
 msgstr "Kopieer de details naar alle aanwezigen"
 
-#: src/components/common/AttendeeTicket/index.tsx:158
+#: src/components/common/AttendeeTicket/index.tsx:167
 #: src/components/modals/ShareModal/index.tsx:171
 msgid "Copy Link"
 msgstr "Link kopiëren"
@@ -2842,7 +2847,7 @@ msgid "General"
 msgstr "Algemeen"
 
 #: src/components/routes/event/TicketDesigner/TicketDesignerPrint.tsx:36
-#: src/components/routes/event/TicketDesigner/TicketPreview.tsx:38
+#: src/components/routes/event/TicketDesigner/TicketPreview.tsx:41
 msgid "General Admission"
 msgstr "Algemene Toegang"
 
@@ -3370,7 +3375,7 @@ msgstr "Live"
 msgid "LIVE"
 msgstr "LIVE"
 
-#: src/components/routes/event/TicketDesigner/TicketPreview.tsx:31
+#: src/components/routes/event/TicketDesigner/TicketPreview.tsx:34
 msgid "Loading preview..."
 msgstr "Voorvertoning laden..."
 
@@ -4208,6 +4213,7 @@ msgstr "Organisatie details"
 msgid "Organization Name"
 msgstr "Naam organisatie"
 
+#: src/components/common/AttendeeTicket/index.tsx:65
 #: src/components/modals/EditUserModal/index.tsx:55
 #: src/components/modals/InviteUserModal/index.tsx:47
 #: src/components/routes/events/Dashboard/index.tsx:193
@@ -4658,7 +4664,7 @@ msgstr "Primaire kleur"
 msgid "Primary Text Color"
 msgstr "Primaire tekstkleur"
 
-#: src/components/common/AttendeeTicket/index.tsx:147
+#: src/components/common/AttendeeTicket/index.tsx:155
 msgid "Print"
 msgstr "Afdrukken"
 
@@ -5085,6 +5091,11 @@ msgstr "Verkoop beëindigd"
 #: src/components/common/ProductPriceAvailability/index.tsx:40
 msgid "Sales start"
 msgstr "Start verkoop"
+
+#: src/components/routes/event/TicketDesigner/TicketDesignerPrint.tsx:80
+#: src/components/routes/event/TicketDesigner/TicketPreview.tsx:88
+msgid "Sample Venue"
+msgstr ""
 
 #: src/components/routes/event/Settings/Sections/LocationSettings/index.tsx:135
 #: src/components/routes/organizer/Settings/Sections/AddressSettings/index.tsx:93
@@ -6298,7 +6309,7 @@ msgstr "Naam van tickethouder"
 msgid "Ticket holders"
 msgstr "Tickethouders"
 
-#: src/components/common/AttendeeTicket/index.tsx:122
+#: src/components/common/AttendeeTicket/index.tsx:130
 msgid "Ticket ID"
 msgstr "Ticket-ID"
 
@@ -6314,7 +6325,7 @@ msgstr "Ticket Naam"
 msgid "Ticket or Product"
 msgstr "Ticket of product"
 
-#: src/components/routes/event/TicketDesigner/TicketDesignerPrint.tsx:85
+#: src/components/routes/event/TicketDesigner/TicketDesignerPrint.tsx:89
 msgid "Ticket Preview for"
 msgstr "Ticketvoorbeeld voor"
 
@@ -6322,7 +6333,7 @@ msgstr "Ticketvoorbeeld voor"
 msgid "Ticket Price"
 msgstr "Ticket Prijs"
 
-#: src/components/common/AttendeeTicket/index.tsx:77
+#: src/components/common/AttendeeTicket/index.tsx:85
 msgid "Ticket Type"
 msgstr "Tickettype"
 
@@ -6696,7 +6707,7 @@ msgstr "UTC"
 msgid "VAT"
 msgstr "BTW"
 
-#: src/components/common/AttendeeTicket/index.tsx:66
+#: src/components/common/AttendeeTicket/index.tsx:74
 msgid "Venue"
 msgstr "Locatie"
 
